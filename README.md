@@ -15,4 +15,4 @@ This is an example repo to show how tree-shaking is working on the
 1. https://github.com/open-telemetry/opentelemetry-js/pull/3329
 2. Split module level instantiations of API classes into separate files and
    re-export them in the entrypoint file.
-   - See https://github.com/open-telemetry/opentelemetry-js/blob/main/api/src/index.ts#L70
+   - See https://github.com/open-telemetry/opentelemetry-js/blob/main/api/src/index.ts#L57-L81
