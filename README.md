@@ -16,3 +16,8 @@ This is an example repo to show how tree-shaking is working on the
 2. Split module level instantiations of API classes into separate files and
    re-export them in the entrypoint file.
    - See https://github.com/open-telemetry/opentelemetry-js/blob/main/api/src/index.ts#L57-L81
+
+These patches are applied in the `/patch-applied/@opentelemetry/api/build/esm` folder.
+
+With these patches applied, the tree-shaking is working as expected and unused API instances can be
+correctly dropped in the final bundle.

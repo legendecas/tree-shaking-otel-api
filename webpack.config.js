@@ -8,6 +8,7 @@ module.exports = {
   },
   mode: 'production',
   optimization: {
+    // disable minimization so that we can inspect the output more easily.
     minimize: false,
   }
 };

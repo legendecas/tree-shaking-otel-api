@@ -42,6 +42,7 @@ export { INVALID_SPANID, INVALID_TRACEID, INVALID_SPAN_CONTEXT, } from './trace/
 export * from './context/context';
 export * from './context/types';
 
+// MARK: - Patch starts
 import { context } from './context-api';
 import { trace } from './trace-api';
 import { propagation } from './propagation-api';
@@ -53,6 +54,7 @@ export {
   propagation,
   diag,
 }
+// MARK: - Patch ends
 
 export default {
     trace: trace,
